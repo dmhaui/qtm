@@ -21,7 +21,7 @@ document.addEventListener('keydown', function(event) {
                     redirect: "follow"
                 };
 
-                fetch("https://geminiapi-djm-hauis-projects.vercel.app/chat", requestOptions)
+                fetch("https://qtm.vercel.app/chat", requestOptions)
                 .then(response => response.text())
                 .then(data => {
                     const responseText = JSON.parse(data).response;
